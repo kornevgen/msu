@@ -4,11 +4,11 @@
 
 int main(void) {
     int n = 10;
-	char *s = malloc(n);
+    char *s = malloc(n);
     if (n > 5) {
         strcpy(s, "AAA");
         puts(s);
         free(s);
     }
-	free(s);
+    free(s);
 }

@@ -1,6 +1,6 @@
 #include <string.h>
 
 int main(void) {
-	char *s;
-	strcpy(s, "123");
+    char *s;
+    strcpy(s, "123");
 }
