@@ -7,7 +7,7 @@ char buf[1024];
 char *get(void) {
 	char *ret = buf;
 	strcpy(ret, "Hello world!\n");
-	return buf;
+	return ret;
 }
 
 int main(void) {
